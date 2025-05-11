@@ -23,9 +23,9 @@ The results show that the model's capability on instruction-augmented dataset (5
 The file structure in this repository is as below, we only show important folders/files
 
     .
-    ├── IBLIP                   # Implementation code on Instruct-BLIP
-    ├── OFA                     # Implementation code on OFA
-    ├── MultiInstruct           # Code to create MINS+
+    ├── IBLIP                   # SFT and evaluation code on Instruct-BLIP
+    ├── OFA                     # SFT and evaluation code on OFA
+    └── MultiInstruct           # Code to create MINS+
         ├──llama                # Code to generate augmented instructions using LLaMA
         ├──mminstr_dataset      # folder to store MINS and MINS+ dataset 
         └──instruction_data     # folder to store original and generated instruction set 
