@@ -1,5 +1,5 @@
 # Automatic Instruction Scaling on MLLMs
-Official Implementation of the paper: [InstrAug: Automatic Instruction Augmentation for Multimodal Instruction Fine-tuning](https://arxiv.org/pdf/2402.14492.pdf)
+Official Implementation of the paper: [Towards Robust Instruction Tuning on Multimodal Large Language Models](https://arxiv.org/pdf/2402.14492.pdf)
 
 ## Introduction
 InstrAug is a framework for instruction augmentation. It can expand extant small instruction set to __up to 30x__ larger.
