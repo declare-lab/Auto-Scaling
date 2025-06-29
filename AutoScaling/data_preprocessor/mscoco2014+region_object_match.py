@@ -45,7 +45,7 @@ class InstructData:
                     img2obj[line['image_id']] = [[bbox,category_dict[str(line['category_id'])]]]
             print(f'total num of {split} {len(annotations)}, span num of {split} {num_inst}')
             count = 0
-            for k in random.sample(img2obj.keys(),len(img2obj)):
+            for k in random.sample(list(img2obj.keys()),len(img2obj)):
                 v  = img2obj[k]
                 if len(v) == 1:
                     continue

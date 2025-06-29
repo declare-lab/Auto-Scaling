@@ -1,12 +1,17 @@
 Below are the instructions for manually downloading some of the datasets that we can not automatically download for you.
 ## Hateful Memes
-To acquire the data, you will need to register at DrivenData's Hateful Memes Competition and download data from the challenge's download page. You can find detailed instructions at https://github.com/facebookresearch/mmf/tree/main/projects/hateful_memes
+~~To acquire the data, you will need to register at DrivenData's Hateful Memes Competition and download data from the challenge's download page. You can find detailed instructions at https://github.com/facebookresearch/mmf/tree/main/projects/hateful_memes~~
 ```
 cd raw_datasets
 mkdir hateful_memes
 cd hateful_memes
 ```
-Download the dataset! The dataset should contain "dev_seen.jsonl" "dev_unseen.jsonl" "img" "LICENSE.txt" "README.md" "test_seen.jsonl"  "test_unseen.jsonl" "train.jsonl". 
+~~Download the dataset! The dataset should contain "dev_seen.jsonl" "dev_unseen.jsonl" "img" "LICENSE.txt" "README.md" "test_seen.jsonl"  "test_unseen.jsonl" "train.jsonl".~~
+
+**Update on June 2025**
+
+
+Please refer to this [Kaggle page](https://www.kaggle.com/datasets/parthplc/facebook-hateful-meme-dataset) to dowonload the dataset, and create soft link to the destination folder.
 
 
 ## Visual Commonsense Reasoning
@@ -48,6 +53,8 @@ Download the dataset!
 tar -xf wikihow.tar.gz && rm wikihow.tar.gz
 ```
 ## Visual Genome
+Please refer to [this link](https://homes.cs.washington.edu/~ranjay/visualgenome/api.html) to download the dataset.
+
 ```
 cd raw_datasets
 mkdir visual_genome

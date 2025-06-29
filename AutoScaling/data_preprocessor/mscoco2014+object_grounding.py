@@ -44,7 +44,7 @@ class InstructData:
             if num_inst == -1 or len(img2obj) < num_inst:
                 input_keys = img2obj.keys()
             else:
-                input_keys = random.sample(img2obj.keys(),num_inst)
+                input_keys = random.sample(list(img2obj.keys()), num_inst)
             for k in input_keys:
                 v  = img2obj[k]
                 select_index = random.sample(range(len(v)), 1)
