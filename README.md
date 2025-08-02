@@ -1,4 +1,4 @@
-# Automatic Instruction Data Scaling on MLLMs
+# Automatic Data Scaling on MLLMs
 Official Implementation of the paper: [Towards Robust Instruction Tuning on Multimodal Large Language Models](https://arxiv.org/pdf/2402.14492.pdf)
 
 ## Introduction
